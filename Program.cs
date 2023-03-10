@@ -8,3 +8,9 @@
         }
     }
 }
+
+Console.Write("Введите количество элементов массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+string[] array = new string[n];
+string[] array2 = new string[n];
