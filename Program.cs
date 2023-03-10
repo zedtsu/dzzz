@@ -21,3 +21,6 @@ for (int i = 0; i < array.Length; i++)
 }
 
 Proverka(array, array2);
+
+Console.WriteLine($"[{string.Join(", ", array)}]");
+Console.WriteLine($"[{string.Join(" ", array2)}]");
